@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <link rel="icon" href="https://fav.farm/🍪">
   <title>Cookie</title>
   <link rel="stylesheet" href="styles.css"> <!-- sets color as blue -->
+  <!-- This comment is very important! DON'T Remove it! -->
   <style>
     p {
       color: red;
@@ -28,7 +29,7 @@
   <script>document.write(name)</script>!
   </p>
   Select your language:
-  
+
   <select>
     <script>
       let defaultLanguage = 'english';
@@ -59,7 +60,7 @@
     const formEl = document.getElementById('login')
     formEl.addEventListener('submit', async (e) => {
       e.preventDefault()
-      
+
       const username = formEl.username.value
       const password = formEl.password.value
       let enc = new TextEncoder();
